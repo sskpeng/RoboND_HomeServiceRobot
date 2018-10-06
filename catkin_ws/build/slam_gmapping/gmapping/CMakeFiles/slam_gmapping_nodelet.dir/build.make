@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/depend.make
@@ -58,17 +58,17 @@ include slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/progress.mak
 include slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/flags.make
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/flags.make
-slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o: /home/workspace/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o"
-	cd /home/workspace/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o -c /home/workspace/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.cpp
+slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o: /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o"
+	cd /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o -c /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.cpp
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.i"
-	cd /home/workspace/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.cpp > CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.i
+	cd /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.cpp > CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.i
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.s"
-	cd /home/workspace/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.cpp -o CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.s
+	cd /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/slam_gmapping.cpp -o CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.s
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o.requires:
 
@@ -82,17 +82,17 @@ slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cp
 
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/flags.make
-slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o: /home/workspace/catkin_ws/src/slam_gmapping/gmapping/src/nodelet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o"
-	cd /home/workspace/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o -c /home/workspace/catkin_ws/src/slam_gmapping/gmapping/src/nodelet.cpp
+slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o: /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/nodelet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o"
+	cd /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o -c /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/nodelet.cpp
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.i"
-	cd /home/workspace/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/catkin_ws/src/slam_gmapping/gmapping/src/nodelet.cpp > CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.i
+	cd /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/nodelet.cpp > CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.i
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.s"
-	cd /home/workspace/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/catkin_ws/src/slam_gmapping/gmapping/src/nodelet.cpp -o CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.s
+	cd /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/slam_gmapping/gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping/src/nodelet.cpp -o CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.s
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o.requires:
 
@@ -113,60 +113,60 @@ slam_gmapping_nodelet_OBJECTS = \
 # External object files for target slam_gmapping_nodelet
 slam_gmapping_nodelet_EXTERNAL_OBJECTS =
 
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/build.make
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libnodeletlib.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libbondcpp.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/libPocoFoundation.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroslib.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librospack.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libgridfastslam.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libscanmatcher.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libsensor_base.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libsensor_range.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libsensor_odometry.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libutils.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libtf.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libtf2.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librostime.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosbag_storage.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroslz4.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/liblz4.so
-/home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/workspace/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so"
-	cd /home/workspace/catkin_ws/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slam_gmapping_nodelet.dir/link.txt --verbose=$(VERBOSE)
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/build.make
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libnodeletlib.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libbondcpp.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/libPocoFoundation.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroslib.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librospack.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libgridfastslam.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libscanmatcher.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libsensor_base.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libsensor_range.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libsensor_odometry.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libutils.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libtf.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libtf2.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librostime.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/librosbag_storage.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /opt/ros/kinetic/lib/libroslz4.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: /usr/lib/x86_64-linux-gnu/liblz4.so
+/home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so: slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so"
+	cd /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slam_gmapping_nodelet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/build: /home/workspace/catkin_ws/devel/lib/libslam_gmapping_nodelet.so
+slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/build: /home/workspace/RoboND_HomeServiceRobot/catkin_ws/devel/lib/libslam_gmapping_nodelet.so
 
 .PHONY : slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/build
 
@@ -176,10 +176,10 @@ slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/requires: slam_gmapp
 .PHONY : slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/requires
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/clean:
-	cd /home/workspace/catkin_ws/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -P CMakeFiles/slam_gmapping_nodelet.dir/cmake_clean.cmake
+	cd /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -P CMakeFiles/slam_gmapping_nodelet.dir/cmake_clean.cmake
 .PHONY : slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/clean
 
 slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/depend:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/slam_gmapping/gmapping /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/slam_gmapping/gmapping /home/workspace/catkin_ws/build/slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/slam_gmapping/gmapping /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : slam_gmapping/gmapping/CMakeFiles/slam_gmapping_nodelet.dir/depend
 

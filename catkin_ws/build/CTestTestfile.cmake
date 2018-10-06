@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/workspace/catkin_ws/src
-# Build directory: /home/workspace/catkin_ws/build
+# Source directory: /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src
+# Build directory: /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
@@ -16,6 +16,8 @@ subdirs(turtlebot_interactions/turtlebot_rviz_launchers)
 subdirs(turtlebot_simulator/turtlebot_simulator)
 subdirs(turtlebot_simulator/turtlebot_stage)
 subdirs(turtlebot_simulator/turtlebot_stdr)
+subdirs(wall_follower)
+subdirs(pick_objects)
 subdirs(slam_gmapping/gmapping)
 subdirs(turtlebot_interactions/turtlebot_interactive_markers)
 subdirs(turtlebot/turtlebot_teleop)

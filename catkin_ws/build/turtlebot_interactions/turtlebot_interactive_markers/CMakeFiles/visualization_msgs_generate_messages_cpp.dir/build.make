@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build
 
 # Utility rule file for visualization_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/visualization_ms
 .PHONY : turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
 
 turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean:
-	cd /home/workspace/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers && $(CMAKE_COMMAND) -P CMakeFiles/visualization_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers && $(CMAKE_COMMAND) -P CMakeFiles/visualization_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/clean
 
 turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/depend:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers /home/workspace/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src/turtlebot_interactions/turtlebot_interactive_markers /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : turtlebot_interactions/turtlebot_interactive_markers/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/depend
 

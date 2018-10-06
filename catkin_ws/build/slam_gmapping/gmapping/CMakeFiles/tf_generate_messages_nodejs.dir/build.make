@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build
 
 # Utility rule file for tf_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ slam_gmapping/gmapping/CMakeFiles/tf_generate_messages_nodejs.dir/build: tf_gene
 .PHONY : slam_gmapping/gmapping/CMakeFiles/tf_generate_messages_nodejs.dir/build
 
 slam_gmapping/gmapping/CMakeFiles/tf_generate_messages_nodejs.dir/clean:
-	cd /home/workspace/catkin_ws/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : slam_gmapping/gmapping/CMakeFiles/tf_generate_messages_nodejs.dir/clean
 
 slam_gmapping/gmapping/CMakeFiles/tf_generate_messages_nodejs.dir/depend:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/slam_gmapping/gmapping /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/slam_gmapping/gmapping /home/workspace/catkin_ws/build/slam_gmapping/gmapping/CMakeFiles/tf_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src /home/workspace/RoboND_HomeServiceRobot/catkin_ws/src/slam_gmapping/gmapping /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/slam_gmapping/gmapping /home/workspace/RoboND_HomeServiceRobot/catkin_ws/build/slam_gmapping/gmapping/CMakeFiles/tf_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : slam_gmapping/gmapping/CMakeFiles/tf_generate_messages_nodejs.dir/depend
 
