@@ -133,6 +133,7 @@ include
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(add_markers src/add_markers.cpp)
+add_executable(test_markers src/test_markers.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -148,7 +149,9 @@ add_executable(add_markers src/add_markers.cpp)
 target_link_libraries(add_markers
    ${catkin_LIBRARIES}
 )
-
+target_link_libraries(test_markers
+   ${catkin_LIBRARIES}
+)
 #############
 ## Install ##
 #############
