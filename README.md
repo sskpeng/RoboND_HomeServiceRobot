@@ -6,9 +6,11 @@ Udacity Robot Sodtware Engineer Nanodegree Term 2 Project
 catkin_ws/src
     |-- add_markers
     |-- Map
+        |-- generated map files (pgm and yaml)
     |-- pick_objects
     |-- RvizConfig
     |-- ShellScripts
+        |-- scripts to run each exercises
     |-- slam_gmapping
     |-- turtlebot
     |-- turtlebot_apps
@@ -16,6 +18,7 @@ catkin_ws/src
     |-- turtlebot_simulator
     |-- wall_follower
     |-- World
+        |-- world file crate in Building Editor
 ```
 ## Exercises to run
 After importing a world environement crate by Building Editor in Gazebo, manually teleoperate robot movement and SLAM .
